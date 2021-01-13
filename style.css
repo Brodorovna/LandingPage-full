@@ -1,0 +1,143 @@
+body{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    height: 100%;
+    background-color: #CACACA;
+    margin:0;
+}
+
+header{
+  background-image: url('images/BG_pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 726px;
+  padding-top: 65px;
+}
+
+.left-text{
+  max-width: 1292px;
+  margin: 130px auto;
+}
+
+.left-text div {
+max-width: 549px;
+  float: left;
+}
+
+.left-text h1 {
+  font-weight: 500;
+font-size: 53.2px;
+line-height: 62px;
+color:#fff;
+}
+
+.left-text p {
+  font-weight: normal;
+font-size: 18.2px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.video {
+  height: 54px;
+  padding: 19px 35px;
+  background-color: #F44336;
+  border: none;
+  box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+border-radius: 3px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.video svg {
+  vertical-align: middle;
+}
+
+h4 {
+  margin: 0;
+  text-align:center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+h5{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;   
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  margin:33px 0 23px 0;
+}
+
+.top-menu {
+  max-width: 1128px;
+  margin: 0 auto;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75em 1.5em;
+  }
+  
+  #logo {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .top-menu nav {
+    display: flex;
+  }
+
+  .top-menu nav a {
+    color: #fff;
+    margin-left:27px;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .top-menu nav img {
+    vertical-align: middle;
+    margin-right:3px;
+}
+
+  .white-block{
+    width:365px;
+    min-height: 470px;
+    background-color: #fff;
+    margin: 99px auto 72px auto; 
+    border-radius: 3px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top:72px;
+  }
+
+ .bottom-nav a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;  
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 34px;
+text-transform: uppercase;
+ } 
+
+ .rights {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;  
+  color: #FFFFFF;
+ } 
