@@ -89,6 +89,43 @@ color: #999999;
 margin: 0 auto;
 }
 
+.features {
+  margin-top: 161px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.features div {
+  width: 328px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+.features div img {
+  margin: 0 auto;
+}
+
+.features div h3 {
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #3C4858;
+}
+
+.features div p {
+  font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #999999;
+}
+
 .top-menu {
   max-width: 1128px;
   margin: 0 auto;
