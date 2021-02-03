@@ -1,0 +1,457 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\000031}}
+.dropdown {
+  display: none;
+  font-family: icomoon;
+  color: #fff;
+  font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\000038}}
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 140px 0 140px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000315}}
+  .top-menu #logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000322}}
+  .top-menu .top-nav a {
+    color: #fff;
+    margin-left: 27px;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000332}}
+  .top-menu .top-nav a span {
+    font-family: icomoon;
+    text-decoration: none;
+    font-size: 18px; }
+
+@media only screen and (max-width: 850px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000340}}
+  .top-menu {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 0;
+    padding: 18px 40px; } }
+@media only screen and (max-width: 630px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000348}}
+  .dropdown {
+    display: initial; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000352}}
+  .top-nav {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000356}}
+  .top-nav.open {
+    display: flex;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3981967787) 0%, rgba(0, 0, 0, 0.7987570028) 100%);
+    flex-direction: column;
+    z-index: 999;
+    transition: 1s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000371}}
+  .top-nav.open a {
+    text-align: left;
+    padding: 5px 20px;
+    margin: 0;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.219);
+    transition: 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_header\.scss}line{font-family:\0000379}}
+  .top-nav.open a:hover {
+    background-color: rgba(0, 0, 0, 0.329); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\000031}}
+.contact-form {
+  max-width: 753px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\000034}}
+  .contact-form :focus {
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\000037}}
+  .contact-form .lead-text {
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 25px;
+    color: #999999;
+    margin: 32px 0 15px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000317}}
+form .first-row {
+  display: flex;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000320}}
+  form .first-row .input-name {
+    width: calc(50% - 15px);
+    margin-top: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000323}}
+    form .first-row .input-name input {
+      border: none;
+      height: 38px;
+      border-bottom: 1px solid #d2d2d2;
+      width: 100%;
+      font-size: 14px;
+      color: #999999;
+      transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000332}}
+    form .first-row .input-name ::placeholder {
+      font-size: 14px;
+      color: #999999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000336}}
+    form .first-row .input-name :focus {
+      border-bottom: 1px solid #9c27b0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000339}}
+    form .first-row .input-name span {
+      font-size: 10px;
+      color: #9c27b0;
+      position: relative;
+      top: -50px;
+      opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000349}}
+form .input-name {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000351}}
+  form .input-name textarea {
+    width: 100%;
+    border: none;
+    height: 85px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-top: 23px;
+    margin-bottom: -8px;
+    font-size: 14px;
+    color: #999999;
+    transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000362}}
+  form .input-name ::placeholder {
+    font-size: 14px;
+    color: #999999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000366}}
+  form .input-name :focus {
+    border-bottom: 1px solid #9c27b0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000369}}
+  form .input-name span {
+    font-size: 10px;
+    color: #9c27b0;
+    position: relative;
+    top: -105px;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000378}}
+form .input-name input:not([value=""]) ~ span {
+  display: initial;
+  transition: opacity 0.3s;
+  opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000384}}
+form .input-name textarea:not([value=""]) ~ span {
+  transition: opacity 0.3s;
+  opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\0000389}}
+form button {
+  display: block;
+  background-color: #9c27b0;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 13px 30px;
+  margin: 0 auto;
+  transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\00003101}}
+form button:hover {
+  background-color: #5e116b; }
+
+@media only screen and (max-width: 850px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\00003108}}
+  form .first-row {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_form\.scss}line{font-family:\00003110}}
+    form .first-row .input-name {
+      width: 100%;
+      margin-top: 19px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\000031}}
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1148px;
+  margin: 0px auto;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\000039}}
+.bottom-nav a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2e2e2e;
+  text-decoration: none;
+  margin-right: 30px;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000320}}
+.rights {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #2e2e2e; }
+
+@media only screen and (max-width: 850px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000329}}
+  footer {
+    padding: 10px 30px;
+    display: block;
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000334}}
+  .rights {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center; } }
+@media only screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000343}}
+  footer {
+    padding: 10px 30px;
+    display: block;
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000349}}
+  .bottom-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000353}}
+    .bottom-nav a {
+      margin-right: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/_footer\.scss}line{font-family:\0000357}}
+  .rights {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\000035}}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  height: 100%;
+  background-color: #cacaca;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000313}}
+h2, h3, h4, h5 {
+  font-weight: normal;
+  color: #3c4858;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000319}}
+h2 {
+  font-size: 36.4px;
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000325}}
+h3 {
+  font-size: 36.4px;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000331}}
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 31px 0 7px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000338}}
+h5 {
+  font-weight: 500;
+  font-size: 18.2px;
+  margin: 14px 0 2px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000345}}
+h6 {
+  font-weight: 500;
+  font-size: 13.65px;
+  color: #777777;
+  margin: 0;
+  margin-bottom: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000353}}
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000361}}
+header {
+  background-image: url("../images/BG_pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 726px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000370}}
+.main-header {
+  max-width: 1320px;
+  margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000374}}
+  .main-header__wrapper {
+    max-width: 560px;
+    float: left;
+    margin: 120px 0 0 -20px;
+    padding-left: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000381}}
+  .main-header .large-text {
+    font-weight: 500;
+    font-size: 53.2px;
+    line-height: 62px;
+    margin: 0 0 12px 2px;
+    color: #ffffff;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000389}}
+  .main-header__paragraph {
+    font-weight: normal;
+    font-size: 18.2px;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\0000397}}
+  .main-header .video {
+    margin-top: 15px;
+    height: 54px;
+    padding: 19px 35px;
+    background-color: #f44336;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003110}}
+  .main-header .video span {
+    font-family: icomoon;
+    font-size: 18px;
+    vertical-align: bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003117}}
+.wrapper {
+  margin: 0px 20px -55px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003119}}
+  .wrapper main {
+    max-width: 1380px;
+    margin: 0 auto;
+    position: relative;
+    top: -88px;
+    background: #ffffff;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2), 0px 2px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 90px 70px 77px 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003133}}
+.product {
+  font-weight: normal;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003137}}
+  .product .lead-text {
+    max-width: 725px;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 25px;
+    color: #999999;
+    margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003147}}
+.features {
+  margin-top: 160px;
+  margin-bottom: 175px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003154}}
+  .features div {
+    width: 328px;
+    align-items: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003164}}
+.members {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 165px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003171}}
+  .members div {
+    max-width: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003177}}
+    .members div p {
+      margin: 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003181}}
+    .members div img {
+      border-radius: 100px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3), 0px 16px 30px rgba(0, 0, 0, 0.3);
+      margin-bottom: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003188}}
+    .members div .profile-icons a {
+      font-family: icomoon;
+      font-size: 18px;
+      color: #999999;
+      text-decoration: none;
+      text-align: center;
+      margin: 5px 15px; }
+
+@media only screen and (max-width: 850px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003200}}
+  header {
+    height: 593px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003204}}
+  .main-header__wrapper {
+    margin: 100px 0 0 5px;
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003209}}
+  .wrapper {
+    margin: 0px 10px -55px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003211}}
+    .wrapper main {
+      margin: 0 auto;
+      position: relative;
+      top: -62px;
+      padding: 90px 25px 82px 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003219}}
+  .features {
+    margin-top: 130px;
+    margin-bottom: 110px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003222}}
+    .features div {
+      width: 355px;
+      margin-bottom: 107px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003228}}
+  .members div {
+    max-width: 800px; } }
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/\!LEARNING\/WEBSKOLA\/\!Landing_Page_homework\/scss\/style\.scss}line{font-family:\00003235}}
+  header {
+    height: 664px; } }
+
+/*# sourceMappingURL=style.css.map */
