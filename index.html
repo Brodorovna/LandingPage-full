@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="icomoon/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -15,15 +16,15 @@
             <a id="logo" href="#logo">Creative Tim</a>
             <a class="dropdown"> &#xe901; </a>
             <nav class="top-nav">
-                <a href="#page">Components  </a>
-                <a href="#page"> <span>&#xe900; </span> Download </a>
-                <a href="#page"> <span>&#xea96;</span></a>
-                <a href="#page"><span>&#xea91;</span></a>
-                <a href="#page"> <span>&#xea92;</span></a>
+                <a href="#page"><i class="underline-right"></i>Components </a>
+                <a href="#page"> <i class="underline-right"></i> <span>&#xe900; </span> Download </a>
+                <a href="#page"> <i class="underline-right"></i><span>&#xea96;</span></a>
+                <a href="#page"><i class="underline-right"></i><span>&#xea91;</span></a>
+                <a href="#page" > <i class="underline-right"></i><span>&#xea92;</span></a>
             </nav>
         </div>
         <section class="main-header">
-           <div class="main-header__wrapper">
+           <div class="main-header__wrapper" data-aos="fade-right">
             <p class="large-text">
                 Write the best title for your page
             </p>
@@ -42,8 +43,8 @@
                 This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. 
             </p>
         </section>
-        <section class="features">
-            <div>
+        <section class="features" data-aos="fade-left">
+            <div data-aos="fade-in">
                 <img src="images/first_f.png">
                 <h4>First Feature</h4>
                 <p>
@@ -66,7 +67,7 @@
             </div>
     </section>
     <h3>Here is our team</h3>        
-    <section class="members">
+    <section class="members"data-aos="fade-right">
         <div>
             <img src="images/person_1.png">
             <h5>Gigi Hadid</h5>
@@ -106,7 +107,7 @@
             </p>  
         </div>
     </section>
-    <section class="contact-form">
+    <section class="contact-form" data-aos="fade-up">
         <h3>Work with us</h3>
         <p class="lead-text">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</p>
         <form>
@@ -140,13 +141,20 @@
         <a href="#">Licenses</a>
     </nav>
     <span class="rights">&#169 2016, made with &#9829 by Creative Tim</span>
-</footer>
+</footer>   
+
 <script>
     document
       .querySelector(".dropdown")
       .addEventListener("click", function () {
         document.querySelector(".top-nav").classList.toggle("open");
       });
- </script>     
+ </script> 
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html> 

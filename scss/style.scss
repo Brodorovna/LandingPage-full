@@ -106,6 +106,14 @@ header {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
+    transition: background-color 0.5s;
+  }
+
+  .video:focus {
+    outline: none;
+  }
+  .video:hover {
+    background-color: #640700;
   }
   .video span {
     font-family: icomoon;
@@ -158,6 +166,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    transition: opacity 1s;
   }
 }
 
@@ -192,6 +201,10 @@ header {
       text-decoration: none;
       text-align: center;
       margin: 5px 15px;
+      transition: 0.5s;
+    }
+    .profile-icons a:hover {
+      color: #5a5a5a;
     }
   }
 }
@@ -234,5 +247,22 @@ header {
 @media only screen and (max-width: 480px) {
   header {
     height: 664px;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+}
+
+.fade-in2 {
+  animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
